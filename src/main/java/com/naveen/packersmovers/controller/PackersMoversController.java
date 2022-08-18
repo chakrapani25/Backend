@@ -24,7 +24,7 @@ public class PackersMoversController {
         @PostMapping("/customerDetails")
         public String customerDetails(@RequestBody Customer customer){
             userService.saveUser(customer);
-            //messageService.sendMessage(customer);
+            messageService.sendMessage(customer);
             return "New user is added";
         }
         
@@ -33,8 +33,6 @@ public class PackersMoversController {
         public String ping() {  return "Hi this is Naveen" ;
         			
         }
-
-
 
     }
 

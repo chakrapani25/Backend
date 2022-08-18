@@ -20,8 +20,8 @@ public class MessageService {
     public static final String AWS_SECRET_KEY = "aws.secretKey";
 
     static {
-        System.setProperty(AWS_ACCESS_KEY_ID, "AKIASEVWZI2J2KKZQT7Q");
-        System.setProperty(AWS_SECRET_KEY, "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");
+        System.setProperty(AWS_ACCESS_KEY_ID, "AKIARYUC4NIQXWREKYLJ");
+        System.setProperty(AWS_SECRET_KEY, "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");
 
     }
     
@@ -50,7 +50,7 @@ public class MessageService {
         smsAttributes.put("AWS.SNS.SMS.SMSType", new MessageAttributeValue().withStringValue("Transactional").withDataType("String"));
 
         PublishResult result = snsClient.publish(new PublishRequest()
-        						.withTopicArn("arn:aws:sns:ap-south-1:684969240791:Java-Fullstack")
+        						.withTopicArn("arn:aws:sns:ap-south-1:121607318049:PackersMovers")
                 				.withMessage(message)
                 				.withMessageAttributes(smsAttributes));
         System.out.println("Message sent successfully--" + result.getMessageId());
