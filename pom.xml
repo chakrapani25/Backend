@@ -46,16 +46,6 @@
 		
 		<!--  AWS dependencies start -->
 		<dependency>
-		    <groupId>org.springframework.cloud</groupId>
-		    <artifactId>spring-cloud-starter-aws</artifactId>
-		    <version>2.2.6.RELEASE </version>
-		</dependency>
-		<dependency>
-		    <groupId>org.springframework.cloud</groupId>
-		    <artifactId>spring-cloud-starter-aws-parameter-store-config</artifactId>
-		    <version>2.2.6.RELEASE </version>
-		</dependency>
-		<dependency>
 		    <groupId>com.amazonaws</groupId>
 		    <artifactId>aws-java-sdk-sns</artifactId>
 		    <version>1.12.129</version>
