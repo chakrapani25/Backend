@@ -35,7 +35,7 @@ public class PackersMoversController {
         }
 
         @GetMapping("/naveen")
-        public String name() {  return "Hi this is Naveen Uppala" ;
+        public String name() {  return "Hi this is Vijay" ;
         			
         }
     }
