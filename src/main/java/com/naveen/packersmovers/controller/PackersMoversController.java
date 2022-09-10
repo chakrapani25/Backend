@@ -39,7 +39,7 @@ public class PackersMoversController {
         			
         }
         @GetMapping("/lahari")
-        public String lahari() {  return "Hi this is Radhika" ;
+        public String lahari() {  return "Hi this is NAVEEN UPPALA GOUD" ;
         			
         }
     }
