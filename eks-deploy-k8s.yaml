@@ -14,10 +14,11 @@ spec:
       labels:
         app: packersmovers
     spec:
+      terminationGracePeriodSeconds: 30
       containers:
       - name: my-packers-movers
         image: packer:latest
-        imagePullPolicy: Always
+        imagePullPolicy: "Always"
         ports:
         - containerPort: 8081
           name: http
