@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-packers-movers
-        image: 121607318049.dkr.ecr.ap-south-1.amazonaws.com/eks-registry:latest
+        image: https://tcn.jfrog.io/artifactory/packersmovers/packer:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
