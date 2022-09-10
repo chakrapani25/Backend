@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-packers-movers
-        image: https://tcn.jfrog.io/artifactory/packersmovers/packer:latest
+        image: packer:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
