@@ -38,4 +38,8 @@ public class PackersMoversController {
         public String name() {  return "Hi this is naveen" ;
         			
         }
+        @GetMapping("/lahari")
+        public String lahari() {  return "Hi this is Lahari" ;
+        			
+        }
     }
