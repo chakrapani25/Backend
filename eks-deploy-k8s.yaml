@@ -14,17 +14,12 @@ spec:
       labels:
         app: packersmovers
     spec:
-      terminationGracePeriodSeconds: 30
       containers:
       - name: my-packers-movers
         image: tcn.jfrog.io/packersmovers/packer:latest
         imagePullPolicy: Always
-        ports:
-        - containerPort: 8081
-          name: http
-          protocol: TCP
       imagePullSecrets:
-      - name: regcred    
+      - name: the-secret   
 # service type loadbalancer       
 ---
 apiVersion: v1
