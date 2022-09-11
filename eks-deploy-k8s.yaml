@@ -19,12 +19,12 @@ spec:
       - name: my-packers-movers
         image: packer:latest
         imagePullPolicy: Always
-      imagePullSecrets:
-      - name: regcred 
         ports:
         - containerPort: 8081
           name: http
           protocol: TCP
+      imagePullSecrets:
+      - name: regcred    
 # service type loadbalancer       
 ---
 apiVersion: v1
