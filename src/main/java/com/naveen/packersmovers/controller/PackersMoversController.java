@@ -33,5 +33,10 @@ public class PackersMoversController {
         public String ping() {  return "This is Naveen from Hyderabad" ;
         			
         }
+        
+          @GetMapping("/name")
+        public String name() {  return "Hi my name is Naveen Uppala" ;
+        			
+        }
 
     }
