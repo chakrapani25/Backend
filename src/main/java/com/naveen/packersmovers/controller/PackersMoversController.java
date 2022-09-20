@@ -30,7 +30,7 @@ public class PackersMoversController {
         
         
         @GetMapping("/ping")
-        public String ping() {  return "I'm from batch9" ;
+        public String ping() {  return "test webhook api" ;
         			
         }
 
