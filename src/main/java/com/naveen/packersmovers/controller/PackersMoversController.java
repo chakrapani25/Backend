@@ -33,5 +33,9 @@ public class PackersMoversController {
         public String ping() {  return "test webhook api" ;
         			
         }
+          @GetMapping("name")
+        public String name() {  return "My name is Naveen Uppala" ;
+        			
+        }
 
     }
