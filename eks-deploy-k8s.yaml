@@ -16,10 +16,8 @@ spec:
     spec:
       containers:
       - name: my-packers-movers
-        image: tcn.jfrog.io/packersmovers/packer:latest
-        imagePullPolicy: Always
-      imagePullSecrets:
-      - name: the-secret   
+        image: 703550360617.dkr.ecr.ap-south-1.amazonaws.com/batch9
+        imagePullPolicy: Always   
 # service type loadbalancer       
 ---
 apiVersion: v1
