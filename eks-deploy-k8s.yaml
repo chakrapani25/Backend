@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-packers-movers
-        image: 703550360617.dkr.ecr.ap-south-1.amazonaws.com/batch9
+        image: 703550360617.dkr.ecr.ap-south-1.amazonaws.com/batch9:latest
         imagePullPolicy: Always   
 # service type loadbalancer       
 ---
