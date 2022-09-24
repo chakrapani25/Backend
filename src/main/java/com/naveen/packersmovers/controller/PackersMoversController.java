@@ -30,16 +30,12 @@ public class PackersMoversController {
         
         
         @GetMapping("/ping")
-        public String ping() {  return "this is saketh" ;
+        public String ping() {  return "test webhook api" ;
+        			
+        }
+          @GetMapping("name")
+        public String name() {  return "My name is Naveen Uppala" ;
         			
         }
 
-        @GetMapping("/naveen")
-        public String name() {  return "Hi this is naveen" ;
-        			
-        }
-        @GetMapping("/lahari")
-        public String lahari() {  return "Hi this is NAVEEN UPPALA GOUD" ;
-        			
-        }
     }

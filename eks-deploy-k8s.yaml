@@ -16,12 +16,8 @@ spec:
     spec:
       containers:
       - name: my-packers-movers
-        image: packer:latest
-        imagePullPolicy: Always
-        ports:
-        - containerPort: 8081
-          name: http
-          protocol: TCP
+        image: 703550360617.dkr.ecr.ap-south-1.amazonaws.com/batch9:latest
+        imagePullPolicy: Always   
 # service type loadbalancer       
 ---
 apiVersion: v1
