@@ -78,7 +78,7 @@
 			</plugin> -->
 		</plugins>
 		
-		 <finalName>packersmovers</finalName>
+		 <finalName>app.jar</finalName>
 	</build>
 
 </project>
