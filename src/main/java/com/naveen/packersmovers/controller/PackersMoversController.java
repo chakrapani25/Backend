@@ -33,9 +33,5 @@ public class PackersMoversController {
         public String ping() {  return "My name is Keertana" ;
         			
         }
-          @GetMapping("name")
-        public String name() {  return "My name is Srikanth" ;
-        			
-        }
 
     }
