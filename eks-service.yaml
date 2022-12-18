@@ -13,6 +13,6 @@ spec:
     port: 80
     protocol: TCP
     targetPort: 8081
-#  type: LoadBalancer
+  type: NodePort
   selector:
     app: packersmovers
