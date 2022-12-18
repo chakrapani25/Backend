@@ -1,17 +1,17 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: "bank-ingress"
+  name: "packersmovers"
   annotations:
     kubernetes.io/ingress.class: alb
     alb.ingress.kubernetes.io/scheme: internet-facing
   labels:
-    app: bank-ingress
+    app: packersmovers
 spec:
   rules:
     - http:
         paths:
-          - path: /bank/*
+          - path: /home/*
             backend:
-              serviceName: "bank-service"
+              serviceName: "packersmovers"
               servicePort: 8081
