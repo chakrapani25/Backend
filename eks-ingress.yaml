@@ -9,9 +9,12 @@ metadata:
     app: packersmovers
 spec:
   rules:
-    - http:
-        paths:
-          - path: /home/*
-            backend:
-              service.name: "packersmovers"
-              service.port.number: 8081
+  - http:
+      paths:
+      - path: /home
+        pathType: Prefix
+        backend:
+          service:
+            name: packersmovers
+            port:
+              number: 8081
