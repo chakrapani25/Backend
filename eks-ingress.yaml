@@ -13,5 +13,5 @@ spec:
         paths:
           - path: /home/*
             backend:
-              serviceName: "packersmovers"
-              servicePort: 8081
+              service.name: "packersmovers"
+              service.port.number: 8081
