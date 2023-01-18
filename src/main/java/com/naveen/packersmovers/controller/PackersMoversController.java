@@ -30,7 +30,7 @@ public class PackersMoversController {
         
         
         @GetMapping("/ping")
-        public String ping() {  return "My name is Naveen Uppala" ;
+        public String ping() {  return "The current batch is batch11" ;
         			
         }
 
